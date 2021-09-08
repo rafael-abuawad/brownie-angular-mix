@@ -69,7 +69,7 @@ This mix comes with everything you need to start using [Angular](https://angular
     $ brownie console
     Brownie v1.9.0 - Python development framework for Ethereum
 
-    ReactMixProject is the active project.
+    AngularMixProject is the active project.
     Launching 'ganache-cli'...
     Brownie environment is ready.
     ```
@@ -80,7 +80,7 @@ This mix comes with everything you need to start using [Angular](https://angular
     $ brownie console --network kovan
     Brownie v1.14.6 - Python development framework for Ethereum
 
-    ReactMixProject is the active project.
+    AngularMixProject is the active project.
     Brownie environment is ready.
     ```
 
@@ -100,7 +100,7 @@ This mix comes with everything you need to start using [Angular](https://angular
     VyperStorage deployed at: 0xB8485421abC325D172652123dBd71D58b8117070
     ```
 
-3. While Brownie is still running, start the React app in a different terminal.
+3. While Brownie is still running, start the Angular app in a different terminal.
 
     The first time this app is used, the node modules have to be installed in /src.
     To do this, navigate to ./client/src and run
