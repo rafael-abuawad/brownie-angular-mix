@@ -1,6 +1,6 @@
-# Brownie React Mix
+# Brownie Angular Mix
 
-This mix comes with everything you need to start using [React](https://reactjs.org/) with a Brownie project.
+This mix comes with everything you need to start using [Angular](https://angular.io/) with a Brownie project.
 
 ## Installation
 
@@ -9,10 +9,10 @@ This mix comes with everything you need to start using [React](https://reactjs.o
 2. Download the mix.
 
     ```bash
-    brownie bake react-mix
+    git clone https://github.com/rafael-abuawad/brownie-angular-mix.git
     ```
 
-3. Install the React client dependencies.
+3. Install the Angular client dependencies.
 
     ```bash
     cd ./client
@@ -23,6 +23,16 @@ This mix comes with everything you need to start using [React](https://reactjs.o
     ```bash
     cd ./client
     npm install 
+    ```
+3. Run the post-install command (**IMPORTANT**).
+
+    ```bash
+    yarn run postinstall
+    ```
+    or 
+
+    ```bash
+    npm run postinstall 
     ```
 
 4. If you want to be able to deploy to testnets, do the following.
@@ -153,13 +163,9 @@ For contracts deployed on a live network, the deployment information is stored p
 
 ## Resources
 
-This mix provides a bare-bones implementation of [Create React App](https://create-react-app.dev/), configured to work with Brownie.
+This mix provides a bare-bones implementation of an [Angular app](https://angular.io/docs), configured to work with Brownie.
 
-To get started with React and building a front-end for your dApps:
-
-* [Rimble](https://rimble.consensys.design/) is an open-source library of React components and guides to help you make dApps. Along with components they provide guides and tutorials to help you get started.
-* For more in-depth information, read the [Create React App documentation](https://create-react-app.dev/docs/getting-started)
-
+To get started with Angular and building a front-end for your dApps:
 
 To get started with Brownie:
 

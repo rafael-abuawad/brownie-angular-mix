@@ -1,0 +1,21 @@
+<h2>Vyper Storage Contract</h2>
+
+<div>The stored value is: {{ vyperValue }}</div>
+<br />
+<form [formGroup]="form" (ngSubmit)="changeVyper()">
+  <progress id="file" value="" max="100" *ngIf="loading">Loading...</progress>
+  <div>
+    <label>Change the value to: </label>
+    <br />
+    <input
+      name="vyperInput"
+      type="text"
+      placeholder="New value..."
+      formControlName="newValue"
+    />
+    <br />
+    <button type="submit" [disabled]="form.invalid || loading">Submit</button>
+  </div>
+</form>
+
+<a routerLink="/solidity-storage">Go to solidity storage</a>
